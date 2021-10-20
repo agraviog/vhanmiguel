@@ -117,6 +117,7 @@ img {
 
 .container {
   padding: 24px;
+  max-width: 1110px;
 }
 
 .container__nav {
