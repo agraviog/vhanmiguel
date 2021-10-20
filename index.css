@@ -1,0 +1,203 @@
+:root {
+  --primary: #e040fb;
+  --primary-light: #ff79ff;
+  --text-primary: #212529;
+  --text-secondary: #585757;
+  --background: #76ffff;
+  --light: #ffffff;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-Regular.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-Medium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-Black.woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-SemiBold.woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-Bold.woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recoleta";
+  src: url("Recoleta-Light.woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  font-size: 100%;
+} /*16px*/
+
+body {
+  background: var(--background);
+  font-family: "Recoleta", sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #000000;
+  min-width: 280px;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: "Recoleta", sans-serif;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 2.441rem;
+}
+
+h3 {
+  font-size: 1.953rem;
+}
+
+h4 {
+  font-size: 1.563rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+small,
+.text_small {
+  font-size: 0.8rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  padding: 24px;
+}
+
+.container__nav {
+  padding: 16px 24px;
+}
+
+.content__grid-main {
+  display: grid;
+  gap: 24px;
+}
+
+/* header */
+
+.header__title {
+  text-align: center;
+}
+
+.header__title h1 {
+  line-height: 100%;
+  font-size: 52px;
+}
+
+/* links */
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.content__flex-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-link {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.rsvp-link {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 100%;
+  padding: 14px;
+  color: var(--primary);
+  background: none;
+  border-radius: 12px;
+  border: 2px solid var(--primary);
+}
+
+.highlights {
+  color: var(--primary);
+}
+
+/* button style */
+
+.btn {
+  font-size: 17px;
+  font-weight: 600;
+  padding: 28px 40px;
+  border-radius: 16px;
+  border: none;
+}
+
+.header__button-primary {
+  color: var(--light);
+  background: linear-gradient(180deg, #ff79ff 0%, #e040fb 100%);
+  box-shadow: 0px 8px 16px rgba(234, 82, 252, 0.4);
+}
+
+.header__button-secondary {
+  color: var(--primary);
+  background: none;
+  border: 2px solid var(--primary);
+}
+
+.header__button {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
