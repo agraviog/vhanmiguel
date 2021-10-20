@@ -153,6 +153,7 @@ img {
 .container {
   padding: 24px;
   max-width: 1110px;
+  margin: auto;
 }
 
 .container__nav {
@@ -215,7 +216,7 @@ a {
 .btn {
   font-size: 17px;
   font-weight: 600;
-  padding: 28px 40px;
+  padding: 17px 40px;
   border-radius: 16px;
   border: none;
 }
