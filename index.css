@@ -83,6 +83,12 @@ a {
   background: #343434;
   color: white;
   border-radius: 12px;
+  transition: all 280ms ease-in-out;
+}
+
+.gallery:hover {
+  background: var(--primary);
+  transition: all 280ms ease-in-out;
 }
 
 .highlights {
