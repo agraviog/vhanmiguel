@@ -7,7 +7,53 @@
 @media only screen and (min-width: 768px) {
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1026px) {
+  .content__grid-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    align-items: center;
+  }
+
+  .events__grid {
+    display: flex;
+    padding: 32px 24px;
+  }
+
+  .events__title {
+    text-align: start;
+  }
+
+  .header__button {
+    flex-direction: row;
+  }
+
+  .header__title {
+    text-align: start;
+  }
+
+  .header__title h1 {
+    font-size: 64px;
+  }
+
+  .header__title p {
+    font-size: 20px;
+    max-width: 420px;
+  }
+
+  .content__grid-main .img__wrapper {
+    order: 2;
+  }
+
+  .events__wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .logo-link {
+    font-size: 24px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
