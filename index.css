@@ -33,6 +33,7 @@ img {
 
 .content__grid-main {
   display: grid;
+  justify-items: center;
   gap: 24px;
 }
 
@@ -194,4 +195,9 @@ a {
 
 .masonry__img {
   border-radius: 24px;
+}
+
+.not-going-img,
+.success-img {
+  max-width: 350px;
 }
